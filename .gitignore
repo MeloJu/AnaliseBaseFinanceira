@@ -1,0 +1,7 @@
+﻿# Power BI build/extract artifacts
+_extract_pbix/
+*.zip
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
