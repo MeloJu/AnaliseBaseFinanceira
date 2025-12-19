@@ -27,16 +27,4 @@ Observação: O relatório foi preparado para leitura imediata. Caso utilize fon
 - No Power BI Desktop: Página Inicial → Atualizar.
 - Caso existam conexões protegidas, ajuste em Arquivo → Opções e configurações → Configurações da fonte de dados.
 
-## Publicação (opcional)
-Se desejar publicar no Power BI Service:
-1. Entrar → selecione sua conta Microsoft/organizacional.
-2. Publicar → escolha o workspace de destino.
-3. Configure o agendamento de atualização (se aplicável) no serviço.
 
-## Estrutura do repositório
-- `desafio tecnico.pbix`: relatório principal do desafio.
-- `README.md`: este guia rápido de uso e publicação.
-
-## Observações
-- Este README não expõe dados sensíveis. Revise as credenciais antes de compartilhar o `.pbix` publicamente.
-- Se preferir, adicione capturas de tela das páginas do relatório na pasta `assets/` e referencie-as aqui.
