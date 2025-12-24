@@ -1,30 +1,50 @@
-# Desafio Técnico — Power BI (PBIX)
+# 📊 SmartCash Penetration & Recurrence Analysis
 
-Este repositório contém um relatório Power BI Desktop (.pbix) desenvolvido para o desafio técnico. O objetivo é explorar e comunicar insights a partir dos dados fornecidos, com visualizações claras e navegação simples.
+## 📌 Context
+Este projeto analisa a queda de penetração de meios de pagamento (Cartão, Pix e SmartCash) ao longo do tempo, com foco em recorrência, inatividade de clientes e concentração de receita.
 
-## Arquivo principal
-- Nome: desafio tecnico.pbix
-- Tamanho aproximado: ~0,19 MB
-- Última modificação: 19/12/2025 09:45:43
+A base utilizada é fictícia e o objetivo do projeto é exclusivamente analítico.
 
-## Pré‑requisitos
-- Power BI Desktop (recomendado: versão mais recente)
-- Windows 10/11 (ou VM/Parallels no macOS)
+---
 
-## Como abrir
-1. Instale o Power BI Desktop (Microsoft Store ou instalador oficial).
-2. Baixe/clon​e este repositório localmente.
-3. Abra o arquivo `desafio tecnico.pbix` no Power BI Desktop.
+## ❓ Perguntas de Negócio
+- A queda de penetração está associada à redução de ticket médio?
+- Quem são os clientes que se tornam inativos?
+- A perda de penetração vem de perda de valor ou de recorrência?
+- Existe concentração excessiva de receita em determinados perfis?
 
-## Conteúdo do relatório
-- Múltiplas páginas com visuais de análise de negócio.
-- Indicadores e gráficos para comparar segmentos, evolução temporal e métricas de desempenho.
-- Painéis com filtros para exploração interativa.
+---
 
-Observação: O relatório foi preparado para leitura imediata. Caso utilize fontes de dados externas, atualize as credenciais e parâmetros conforme necessário.
+## 🔍 Principais Insights
+- A queda de penetração **não é explicada por redução de ticket médio**, especialmente em SmartCash.
+- O principal fator é a **diminuição da recorrência de uso**.
+- Parte relevante da receita vinha de clientes que posteriormente se tornaram inativos.
+- Clientes inativos mantinham **saldo médio relevante**, indicando perda de engajamento e não incapacidade financeira.
+- A receita de SmartCash apresenta **alta concentração em SMB**, criando dependência estrutural.
 
-## Atualização de dados
-- No Power BI Desktop: Página Inicial → Atualizar.
-- Caso existam conexões protegidas, ajuste em Arquivo → Opções e configurações → Configurações da fonte de dados.
+---
 
+## 🛠️ Tecnologias e Técnicas
+- Power BI
+- DAX (QoQ, acumulados, medidas de penetração)
+- Modelagem de dados
+- Análise temporal
+- Storytelling orientado a negócio
 
+---
+
+## 📈 Outputs
+- Dashboard interativo (PBIX)
+- Relatório executivo (PDF)
+- Visualizações de penetração, ticket médio, inatividade e concentração de receita
+
+---
+
+## 📷 Exemplos de Visualização
+![Penetração](images/dashboard_penetration.png)
+
+---
+
+## 👤 Autor
+Juan Ayres Melo  
+Data & AI | Analytics | Business Intelligence
